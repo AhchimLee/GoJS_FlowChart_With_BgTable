@@ -463,7 +463,7 @@ function loadJsonFile() {
   // CORS 보안으로 local 파일 참조 불가능, 
   // VSCode LiveServer 사용해서 local 웹서버 돌림.
   var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open('GET', 'http://localhost:5500/' + window.location.pathname.split('/')[1] +'/flowchart.json', false);
+  xmlhttp.open('GET', 'https://raw.githubusercontent.com/AhchimLee/GoJS_FlowChart_With_BgTable/master/' + window.location.pathname.split('/')[1] +'/flowchart.json', false);
   xmlhttp.send();
   document.getElementById("mySavedModel").value = xmlhttp.responseText;
   // *****************Open Json File**********************
