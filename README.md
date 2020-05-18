@@ -20,4 +20,4 @@
 
   - **변경사항 저장 (Grean)**: If you have modified the flowchart components on your own, you can temporarily save the state (move component position, change text, etc.).
   - **불러오기 (SkyBlue)**: Load the flowchart state you saved temporarily.
-  - **.SVG 형식으로 보기** + 인쇄 (Red): Outputs and prints the current status flowchart in .SVG format.
+  - **.SVG 형식으로 보기 + 인쇄 (Red)**: Outputs and prints the current status flowchart in .SVG format.
